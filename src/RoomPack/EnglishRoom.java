@@ -20,7 +20,7 @@ public class EnglishRoom extends RoomBase{
 
     @Override
     void lookAround() {
-        System.out.println("w");
+        System.out.println("You are in an English Room, philosophical writing and quotes litter the walls, while thought provoking questions pervade the whiteboard.");
     }
     
 }

@@ -20,7 +20,7 @@ public class ScienceRoom extends RoomBase{
 
     @Override
     void lookAround() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("You are in a Science Room, ");
     }
     
 }

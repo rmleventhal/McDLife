@@ -20,7 +20,7 @@ public class MathRoom extends RoomBase{
 
     @Override
     void lookAround() {
-        System.out.println("You are in a Math classroom. You see generic encouragement and math related posters. A poster listing Pi looms above the board");
+        System.out.println("You are in a Math classroom. You see generic encouragement and math related posters. A poster listing the digits of Pi looms above the board");
     }
     
 }

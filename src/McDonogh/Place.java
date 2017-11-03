@@ -18,4 +18,8 @@ import RoomPack.RoomBase;
 public class Place {
     private String name;
     private RoomBase[] rooms; //each place has somenumber of visitable locations
+    private Time time;
+    
+    
+    
 }
