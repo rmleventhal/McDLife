@@ -11,10 +11,11 @@ package CreateAPlayer;
  */
 public class CreateAPlayer {
     public static void main(String[] args) throws InsufficientPointsException {
-        Player Jack = new Student();
-        Jack = new Intelligence(Jack, 5);
-        System.out.println(Jack.getDescription() + 
-                "\n" + "Skill Points Used: " + Jack.skillPoints());
+        Player Ellie = new Artist();
+        Ellie = new Intelligence(Ellie);
+        Ellie = new Speed(Ellie);
+        System.out.println(Ellie.getDescription() + 
+                "\n" + "Skill Points Used: " + Ellie.skillPoints());
         
     }
 }

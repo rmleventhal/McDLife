@@ -9,9 +9,9 @@ package CreateAPlayer;
  *
  * @author jjank
  */
-public class Student extends Player{
+public class Bookworm extends Player{
     
-    public Student(){
+    public Bookworm(){
         description = "Nothing gets between you and a textbook. Studying is your lifeblood." 
                 + "\n" + "Giant bonus in the classroom. Weakness in the mental sanity department.";
     }

@@ -9,17 +9,17 @@ package CreateAPlayer;
  *
  * @author jjank
  */
-public class Intelligence extends AttributeDecorator {
+public class Strength extends AttributeDecorator {
     Player player;
 
 
-    public Intelligence(Player player) {
+    public Strength(Player player) {
         this.player = player;
     }
 
     @Override
     public String getDescription() {
-        return player.getDescription() + "\n" + "Intellligence";
+        return player.getDescription() + "\n" + "Strength";
     }
 
     @Override
